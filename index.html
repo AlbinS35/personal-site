@@ -1,157 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Reviews & Listings</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+<title>Bikes</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="bg-dark text-white text-center py-3">
-        <h1>Car Reviews & Listings</h1>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-        <div class="container">
-            <a class="navbar-brand" href="#">CarPortal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cars.html">View All Cars</a></li>
-                </ul>
-                <a class="btn btn-warning" href="profile.html">User Profile</a>
-            </div>
-        </div>
-    </nav>
-    <div class="container mt-4">
-        <div class="row">
-            <aside class="col-md-3">
-                <div class="card p-3">
-                    <h5>Filters</h5>
-                    <label class="form-label">Body Type</label>
-                    <select class="form-select">
-                        <option>All</option>
-                        <option>SUV</option>
-                        <option>Sedan</option>
-                        <option>Hatchback</option>
-                        <option>MPV</option>
-                    </select>
-                    <label class="form-label mt-2">Fuel Type</label>
-                    <select class="form-select">
-                        <option>All</option>
-                        <option>Petrol</option>
-                        <option>Diesel</option>
-                        <option>Electric</option>
-                    </select>
-                    <label class="form-label mt-2">Price Range</label>
-                    <select class="form-select">
-                        <option>5-10 Lakhs</option>
-                        <option>10-15 Lakhs</option>
-                        <option>15-20 Lakhs</option>
-                        <option>20-50 Lakhs</option>
-                        <option>50 Lakhs - 1 Crore</option>
-                    </select>
-                    <label class="form-label mt-2">Transmission</label>
-                    <select class="form-select">
-                        <option>All</option>
-                        <option>Manual</option>
-                        <option>Automatic</option>
-                    </select>
-                </div>
-            </aside>
-            <main class="col-md-9">
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card shadow-sm car-card" ondblclick="window.location.href='Swift1.html'">
-                            <img src="C:\Users\DELL\Desktop\sample.html\maruti-suzuki-swift-right-front-three-quarter5.webp" class="card-img-top" alt="Swift">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Maruti Suzuki Swift</h5>
-                                <p class="card-text">Engine: 1.2L Petrol | HP: 89 | Price: ₹7.5 Lakh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card shadow-sm car-card" ondblclick="window.location.href='baleno-details.html'">
-                            <img src="C:\Users\DELL\Desktop\sample.html\baleno-exterior-right-front-three-quarter-64.webp" class="card-img-top" alt="Baleno">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Maruti Suzuki Baleno</h5>
-                                <p class="card-text">Engine: 1.2L Petrol | HP: 90 | Price: ₹8 Lakh</p>
-                            </div>
-                        </div>
-                    </div>        
-                            <div class="col-md-6 col-lg-4">
-                        <div class="card shadow-sm car-card" ondblclick="window.location.href='dzire-details.html'">
-                            <img src="C:\Users\DELL\Desktop\sample.html\dzire-2024-exterior-right-front-three-quarter-26.webp" class="card-img-top" alt="Dzire">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Maruti Suzuki Dzire</h5>
-                                <p class="card-text">Engine: 1.2L Petrol | HP: 88 | Price: ₹7.8 Lakh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card shadow-sm car-card" ondblclick="window.location.href='ertiga-details.html'">
-                            <img src="C:\Users\DELL\Desktop\sample.html\ertiga-exterior-right-front-three-quarter-9.webp" class="card-img-top" alt="Ertiga">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Maruti Suzuki Ertiga</h5>
-                                <p class="card-text">Engine: 1.5L Petrol | HP: 103 | Price: ₹10 Lakh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card shadow-sm car-card" ondblclick="window.location.href='ciaz-details.html'">
-                            <img src="C:\Users\DELL\Desktop\sample.html\ciaz-exterior-left-front-three-quarter.webp" class="card-img-top" alt="Ciaz">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Maruti Suzuki Ciaz</h5>
-                                <p class="card-text">Engine: 1.5L Petrol | HP: 105 | Price: ₹11 Lakh</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card shadow-sm car-card" ondblclick="window.location.href='fronx-details.html'">
-                            <img src="C:\Users\DELL\Desktop\sample.html\fronx-exterior-right-front-three-quarter-108.webp" class="card-img-top" alt="Fronx">
-                            <div class="card-body text-center">
-                                <h5 class="card-title">Maruti Suzuki Fronx</h5>
-                                <p class="card-text">Engine: 1.0L Turbo Petrol | HP: 100 | Price: ₹10.5 Lakh</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </div>
-             
-    <div class="container mt-4">
-        <nav>
-            <ul class="pagination justify-content-center">
-                <li class="page-item"><a class="page-link" href="C:\Users\DELL\Desktop\sample.html\new one.html">Previous</a></li>
-                <li class="page-item"><a class="page-link" href="C:\Users\DELL\Desktop\sample.html\new one.html">1</a></li>
-                <li class="page-item"><a class="page-link" href="C:\Users\DELL\Desktop\sample.html\new two.html">2</a></li>
-                <!-- <li class="page-item"><a class="page-link" href="#">3</a></li> -->
-                <li class="page-item"><a class="page-link" href="C:\Users\DELL\Desktop\sample.html\new two.html">Next</a></li>
-            </ul>
-        </nav>
-    </div>
-    <footer class="bg-dark text-white text-center py-3 mt-auto">
-        &copy; 2025 Car Reviews & Listings. All Rights Reserved.
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        .car-card:hover {
-            transform: scale(1.05);
-            transition: 0.3s;
-        }
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .container {
-            flex: 1;
-        }
-    </style>
+<body style="background-color: rgb(251, 251, 244);">
+
+<h1 style ="color: aqua;"style="text-align:center;">Automotive page</h1>
+<p style="font-size:medium;"></p>Bikes</p>
+ <div>
+    <a href="www.youtube.com">Albin</a>
+
+    <img src="https://www.carandbike.com/_next/image?url=https%3A%2F%2Fc.ndtvimg.com%2F2021-07%2Fp5l0qpmk_2022-harleydavidson-sportster-s_625x300_14_July_21.jpg&w=3840&q=75"  alt="Bike" width="500">
+    <p>This is a <br> paragraph with a line break.</p>
+ </div>
+ <div> 
+    <hr>
+    <h1 style="background-color: aquamarine"> cars</h1>
+    <h3 style="color: blue;" 700></h3>
+    <h4 style="font-family:courier;">kia e6</h4>
+    <h5 style="font-size:160%;">mahindra thar roxx 4*4</h5>
+    <h6 style="border:2px solid Violet;">mini cooper countryman</h6>
+    <h7></h7>
+ </div>
+<div>
+    <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+      </pre>
+      <a href="albinsuresh1875@gmail.com">Send Mail</a>
+   <style>
+      th, td {
+  border: 1px solid rgb(219, 65, 65);
+  border-radius: 10px;
+}
+   </style>   
+
+      <table style="width: 50%;">
+         <tr>
+           <th>Name</th>
+           <th>Telephone number</th>
+           <th>Age</th>
+           <th>Residence</th>
+         </tr>
+         <tr>
+           <td>Thomas Mizas</td>
+           <td>4850918</td>
+           <td>54</td>
+           <td>Illisia</td>
+         </tr>
+         <br>
+         <tr>
+           <td>Maria Ripi</td>
+           <td>5477887</td>
+           <td>45</td>
+           <td>Austria</td>
+         </tr>
+         <br>
+         <tr>
+            <td>Athul</td>
+            <td>2108331</td>
+            <td>20</td>
+            <td>Kidagoor</td>
+          </tr>
+          <br>
+          <tr>
+            <td>Aromal</td>
+            <td>216081</td>
+            <td>20</td>
+            <td>Mattakara</td>
+          </tr>
+          <br>
+          <tr>
+            <td>Dileep</td>
+            <td>9999</td>
+            <td>65</td>
+            <td>kochi</td>
+          </tr>
+       </table>
+       
+      
+</div>
+
 </body>
 </html>
